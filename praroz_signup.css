@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #f7f2f2;
+    --black: #232323;
+    --orange: #ed6821;
+}
+
+body {
+    background-image: url(/pexels-pixabay-268533.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#signForm {
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: var(--black);
+    opacity: .9;
+    padding: 25px;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+#signForm h2 {
+    text-align: center;
+    color: var(--orange);
+}
+
+#inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: inherit;
+}
+
+#inputDiv label {
+    padding-bottom: 20px;
+}
+
+#inputDiv input {
+    /* width: 250px; */
+    /* height: 35px; */
+    /* margin-top: 30px; */
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid var(--orange);
+    background-color: inherit;
+    outline: none;
+    color: white;
+}
+
+small {
+    color: red;
+}
+
+button {
+    width: 80%;
+    height: 46px;
+    margin: 30px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--orange);
+    border: none;
+    border-radius: 10px;
+}
+
+.form-control.error input {
+    border: 1px solid rgb(243, 15, 15);
+}
+
+.form-control.success input {
+    border: 1px solid rgb(15, 243, 15);
+}
